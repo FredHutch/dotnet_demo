@@ -15,14 +15,14 @@ namespace dotnet_demo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Demo application Description Page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Demo Application Contact Page.";
 
             return View();
         }
